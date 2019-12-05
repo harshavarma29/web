@@ -1,0 +1,63 @@
+
+.orange {
+    background-color: orange;
+    padding: 15px;
+}
+
+.purple {
+    background-color: plum;
+    padding: 20px ;
+    padding-bottom: 50px;
+}
+
+.green {
+    background-color: greenyellow;
+    padding: 3px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 10px;
+    grid-auto-flow: row; 
+}
+
+.blue {
+    background-color: skyblue;
+    padding: 20px;
+}
+
+.header {
+    text-align: left;
+}
+
+.textH {
+    font-size: 2em;
+    border-radius: 4px;
+    display: inline-block;
+    cursor: pointer;
+    margin: 5px;
+    background-color: rgb(0, 217, 255);
+} 
+
+.textH4 { 
+    background-color: rgba(128, 128, 128, 0.712);
+}
+
+.textH5 {
+    background-color: rgba(47, 255, 75, 0.808);
+} 
+
+.zone {
+    display: inline;
+    font-size: 17em;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 1px red solid;
+    text-align: center;
+    transition: all 1s;
+}
+
+.zone:hover {
+    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    transition: all 1s;
+    border-width: 10px;
+}
